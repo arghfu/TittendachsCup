@@ -20,9 +20,9 @@ namespace TittendachsCup
     /// <summary>
     /// Eine leere Seite, die eigenständig verwendet oder zu der innerhalb eines Rahmens navigiert werden kann.
     /// </summary>
-    public sealed partial class TeamPage : Page
+    public sealed partial class SettingsPage : Page
     {
-        public TeamPage()
+        public SettingsPage()
         {
             this.InitializeComponent();
         }

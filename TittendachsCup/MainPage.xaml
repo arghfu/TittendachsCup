@@ -42,14 +42,7 @@
                             <TextBlock Text="Table" FontSize="24" Margin="20,0,0,0" />
                         </StackPanel>
                     </ListBoxItem>
-                    
-                    <ListBoxItem Name="TeamListBoxItem">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE716;" />
-                            <TextBlock Text="Teams" FontSize="24" Margin="20,0,0,0" />
-                        </StackPanel>
-                    </ListBoxItem>
-
+     
                     <ListBoxItem Name="MatchdayListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE787;" />

@@ -25,7 +25,7 @@ namespace TittendachsCup
         public MainPage()
         {
             this.InitializeComponent();
-            NavigationFrame.Navigate(typeof(PlayerPage));
+            NavigationFrame.Navigate(typeof(SettingsPage));
             NavigationTextBlock.Text = "Players";
         }
 
@@ -38,20 +38,18 @@ namespace TittendachsCup
         {
             if (PlayerListBoxItem.IsSelected)
             {
-                NavigationFrame.Navigate(typeof(PlayerPage));
+                NavigationFrame.Navigate(typeof(SettingsPage));
                 NavigationTextBlock.Text = "Players";
-            }
-            else if (TeamListBoxItem.IsSelected)
-            {
-                NavigationFrame.Navigate(typeof(TeamPage));
             }
             else if (TableListBoxItem.IsSelected)
             {
                 NavigationFrame.Navigate(typeof(TablePage));
+                NavigationTextBlock.Text = "Table";
             }
             else if (MatchdayListBoxItem.IsSelected)
             {
                 NavigationFrame.Navigate(typeof(MatchdayPage));
+                NavigationTextBlock.Text = "Matchday";
             }
         }
     }
